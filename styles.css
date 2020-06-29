@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+ body {
+    font-family: 'Roboto', sans-serif;
+    max-width: 940px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-direction: column; */
+}
+
+/* .container {
+    max-width: 940px;
+    margin: 0 auto;
+} */
+
+header {
+    padding: 36px 0;
+}
+
+header #menu {
+    display: grid;
+    grid-template-columns: 30% 10% 10%;
+    text-align: left;
+}
+
+header #menu a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 400;
+    color: #111;
+}
+
+header #menu a:hover{
+    color: #666;
+}
+
+.banner {
+    width: 940px;
+    height: 366px;
+    position: relative;
+    padding: 4%;
+    background-color: #FBDFDB;
+    border-radius: 30px;
+}
+
+.banner h1 {
+    margin-top: 90px;
+    font-weight: bold;
+    font-size: 32px;
+    color: #111;
+}
+
+.banner p {
+    margin-top: 10px;
+    width: 320px;
+    height: 258px;
+    line-height: 28px;
+    font-weight: normal;
+    font-size: 18px;
+    color: #000;
+    opacity: 0.7;
+}
+
+.banner img {
+    position: absolute;
+    bottom: 0;
+    right: 90px;
+}
+
+    .most-accessed h1 {
+        font-weight: bold;
+        font-size: 24px;
+        color: #111;
+        margin-top: 30px;
+        padding: 20px;
+    }
+
+    .recipe-list {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        gap: 20px;
+        padding-bottom: 20px;
+    }
+
+    .recipe-list img {
+        width: 300px;
+        height: 140px;
+        background-color: #ddd;
+        border-radius: 15px;
+    }
+
+    .recipe-list img:hover {
+        cursor: pointer;
+    }
+
+    .info {
+        margin-top: 20px;
+    }
+
+    .recipe-name {
+        font-size: 18px;
+        font-weight: 600;
+    }
+
+    .author {
+        font-size: 14px;
+        color: #777777;
+    }
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: 62px;
+    padding: 20px;
+    background-color: #EEEEEE;
+
+    font-size: 14px;
+    color: #999999;
+    text-align: center;
+}
