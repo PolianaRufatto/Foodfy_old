@@ -34,6 +34,6 @@ server.get("/recipes/:id", function (req, res) {
     return res.render('recipe', {recipe});
 });
 
-server.listen(5000, function() {
+server.listen(6000, function() {
     console.log('server is running');
 });
